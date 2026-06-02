@@ -1,5 +1,12 @@
-# aws-webapp-deployment-apache2
-Deploying a webapp on an AWS EC2 instance. Use Terraform to deploy the infrastructure, then use shell script to deployment apache2 and the webapp
+# AWS Apache Webapp Deployment
+
+  ## Project Scope 
+Deploying a webapp on an AWS EC2 instance. Use Terraform to deploy the AWS infrastructure with apache2 webserver. 
+Then use shell script to deployment the web application to run within apache2 webserver default web folder (/var/www/html).
+
+# AWS Architecture Diagram
+<img width="777" height="520" alt="Image" src="https://github.com/user-attachments/assets/37370b21-897d-4d6b-b952-0a0f2728f244" />
+
 
 # Tools 
 - Terraform
